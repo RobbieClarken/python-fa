@@ -38,7 +38,7 @@ def pv_list_to_str(pv_list):
     return pv_str
 
 def capture(pv_list, samples=1, server=None, port=None, start_date=None,
-            continuous=True, data_format=FULL_RATE, data_max=None,
+            continuous=True, data_format=FULL_RATE, data_mask=None,
             all_data=False, raw_format=False, forbid_gaps=False,
             check_gaps=False, extra_dimensions=False, data_name=None,
             utc=False, subtract_day=False, controller_info=False):
